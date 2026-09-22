@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="Portfolio of Charan Teja Badavath, an IT support and cybersecurity professional focused on help desk operations, systems administration, SOC operations, network defense, and cloud security." />
+<meta name="description" content="Portfolio of Charan Teja Badavath, an IT operations and cybersecurity professional with five years of experience across technical support, systems administration, quality assurance, SOC monitoring, and network defense." />
 <meta name="theme-color" content="#0b0f14" />
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b0f14'/%3E%3Cpath d='M32 10 50 17v13c0 12-7.5 20-18 24C21.5 50 14 42 14 30V17l18-7Z' fill='none' stroke='%2300e0a4' stroke-width='5'/%3E%3Cpath d='m24 32 5 5 11-12' fill='none' stroke='%2300e0a4' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
 <title>Charan Teja Badavath — IT Support &amp; Cybersecurity Professional</title>
@@ -240,13 +240,13 @@ a:focus-visible, .btn:focus-visible{ outline:2px solid var(--signal); outline-of
       <div>
         <div class="status-line">STATUS: ACTIVELY SEEKING IT OPERATIONS &amp; SECURITY ROLES</div>
         <h1>Charan Teja Badavath<br/><span class="hl">IT Support &amp; Cybersecurity Professional</span></h1>
-        <div class="role">Help Desk <span class="sep">/</span> IT Administration <span class="sep">/</span> SOC Operations <span class="sep">/</span> Cloud Security</div>
-        <p class="lead">Graduate student in Cloud &amp; Cyber Security at Arkansas State University with hands-on experience supporting users, administering endpoints and accounts, resolving technical incidents, and building practical security labs. Open to IT Help Desk, IT Administrator, IT Security, SOC, and Cloud Security roles involving relocation or travel.</p>
+        <div class="role">IT Operations <span class="sep">/</span> Systems Administration <span class="sep">/</span> Security Operations <span class="sep">/</span> QA Testing</div>
+        <p class="lead">IT operations and cybersecurity professional with five years of experience spanning healthcare application QA at Cognizant, enterprise support and systems operations at Teleperformance, and academic IT operations at Arkansas State University. I support users, administer endpoints and access, resolve technical incidents, and build continuously evolving security labs. Open to IT Help Desk, IT Administrator, IT Security, SOC Analyst, and network-security roles involving relocation or travel.</p>
 
         <div class="kpi-row">
+          <div class="kpi"><div class="v">5 YRS</div><div class="l">IT operations and QA experience</div></div>
           <div class="kpi"><div class="v">100+</div><div class="l">Faculty and students supported</div></div>
           <div class="kpi"><div class="v">50+</div><div class="l">Workstations maintained</div></div>
-          <div class="kpi"><div class="v">3</div><div class="l">Security labs and projects</div></div>
         </div>
 
         <div class="btn-row">
@@ -260,7 +260,7 @@ a:focus-visible, .btn:focus-visible{ outline:2px solid var(--signal); outline-of
       <!-- Signature element: live network topology panel -->
       <div class="topo-panel">
         <div class="topo-head">
-          <span class="t">live_topology.map</span>
+          <span class="t">continuous_security_lab.live</span>
           <div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
         </div>
         <svg class="topo-svg" viewBox="0 0 380 320" xmlns="http://www.w3.org/2000/svg">
@@ -277,6 +277,7 @@ a:focus-visible, .btn:focus-visible{ outline:2px solid var(--signal); outline-of
           <path id="p2" d="M 130 160 L 200 160 L 200 260 L 130 260" fill="none" stroke="#22303f" stroke-width="1.4"/>
           <path id="p3" d="M 200 58 L 300 58 L 300 130" fill="none" stroke="#22303f" stroke-width="1.4"/>
           <path id="p4" d="M 200 160 L 300 160 L 300 130" fill="none" stroke="#22303f" stroke-width="1.4"/>
+          <path id="p5" d="M 200 260 L 300 260 L 300 146" fill="none" stroke="#22303f" stroke-width="1.4"/>
 
           <!-- firewall node (pfSense) -->
           <circle cx="200" cy="58" r="13" fill="#10151c" stroke="#00e0a4" stroke-width="1.6" class="node-pulse"/>
@@ -288,6 +289,10 @@ a:focus-visible, .btn:focus-visible{ outline:2px solid var(--signal); outline-of
           <!-- SIEM hub -->
           <circle cx="300" cy="130" r="16" fill="#10151c" stroke="#ffb648" stroke-width="1.6" class="node-pulse" style="animation-delay:1.1s"/>
           <text x="300" y="133" font-family="IBM Plex Mono, monospace" font-size="8" fill="#ffb648" text-anchor="middle">SIEM</text>
+
+          <!-- actively monitored honeypot -->
+          <circle cx="200" cy="260" r="13" fill="#10151c" stroke="#ff5d5d" stroke-width="1.6" class="node-pulse" style="animation-delay:1.6s"/>
+          <text x="200" y="263" font-family="IBM Plex Mono, monospace" font-size="7" fill="#ff5d5d" text-anchor="middle">HNY</text>
 
           <!-- endpoint dots inside boxes -->
           <circle cx="40" cy="70" r="4" fill="#22303f"/>
@@ -303,13 +308,14 @@ a:focus-visible, .btn:focus-visible{ outline:2px solid var(--signal); outline-of
           <circle r="3" fill="#4fb6ff" class="packet" style="offset-path:path('M 200 58 L 300 58 L 300 130'); animation-delay:1.3s;"/>
           <circle r="3" fill="#ff5d5d" class="packet" style="offset-path:path('M 130 160 L 200 160 L 200 260 L 130 260'); animation-delay:2.4s;"/>
           <circle r="3" fill="#ffb648" class="packet" style="offset-path:path('M 200 160 L 300 160 L 300 130'); animation-delay:0.7s;"/>
+          <circle r="3" fill="#ff5d5d" class="packet" style="offset-path:path('M 200 260 L 300 260 L 300 146'); animation-delay:1.9s;"/>
 
           <!-- bottom log strip -->
           <text x="14" y="306" font-family="IBM Plex Mono, monospace" font-size="8" fill="#4d6072">192.168.10.4 &rarr; ALLOW :443</text>
         </svg>
         <div class="topo-foot">
-          <span>SURICATA &middot; WAZUH &middot; PFSENSE</span>
-          <span class="ok">3 SEGMENTS MONITORED</span>
+          <span>PFSENSE &middot; SURICATA &middot; WAZUH &middot; HONEYPOT</span>
+          <span class="ok">CONTINUOUS BUILD</span>
         </div>
       </div>
     </div>
@@ -323,14 +329,14 @@ a:focus-visible, .btn:focus-visible{ outline:2px solid var(--signal); outline-of
     <h2>IT operations with a security mindset</h2>
     <div class="about-grid">
       <div class="about-text">
-        <p>I combine hands-on user support and systems administration with a security-first approach. At Arkansas State University, I maintain lab and office workstations, provision accounts and permissions, support faculty and students, and resolve hardware, software, VPN, Wi-Fi, and application-access issues across Windows, macOS, and Linux.</p>
-        <p>My security work includes a segmented network protected by <strong>pfSense and Suricata</strong>, SOC monitoring through <strong>Wazuh SIEM</strong>, and an active <strong>Debian/Python SSH honeypot</strong> tested from Kali Linux. These labs help me connect day-to-day IT operations with practical threat detection and incident analysis.</p>
-        <p>I&rsquo;m currently seeking IT Help Desk, IT Administrator, IT Security, SOC Analyst, and Cloud Security opportunities &mdash; including roles involving relocation or travel.</p>
+        <p>I bring five years of progressive experience across healthcare application QA, enterprise technical support, systems administration, and university IT operations. At Arkansas State University, I maintain lab and office workstations, provision accounts and permissions, support faculty and students, and resolve hardware, software, VPN, Wi-Fi, and application-access issues across Windows, macOS, and Linux.</p>
+        <p>My security-first approach connects reliable daily operations with practical defense. I build and continuously improve a segmented network protected by <strong>pfSense and Suricata</strong>, centralize monitoring through <strong>Wazuh SIEM</strong>, and operate an active <strong>Debian/Python SSH honeypot</strong> tested from Kali Linux for repeatable threat-detection and incident-analysis exercises.</p>
+        <p>I&rsquo;m currently seeking IT Help Desk, IT Administrator, IT Security, SOC Analyst, and network-security opportunities &mdash; including roles involving relocation or travel.</p>
       </div>
       <div class="focus-list">
         <div class="focus-item"><div class="ico">01</div><div><div class="ft">Network Defense</div><div class="fd">Firewall &amp; IDS/IPS configuration, segmentation, traffic analysis</div></div></div>
         <div class="focus-item"><div class="ico">02</div><div><div class="ft">SOC Operations</div><div class="fd">SIEM monitoring, log correlation, ATT&amp;CK-mapped detection</div></div></div>
-        <div class="focus-item"><div class="ico">03</div><div><div class="ft">Cloud Security</div><div class="fd">AWS IAM, CloudTrail, GuardDuty, Security Hub hardening</div></div></div>
+        <div class="focus-item"><div class="ico">03</div><div><div class="ft">IT Operations &amp; Service Quality</div><div class="fd">Endpoint administration, access management, troubleshooting, QA validation, and incident escalation</div></div></div>
       </div>
     </div>
   </div>
@@ -360,8 +366,8 @@ a:focus-visible, .btn:focus-visible{ outline:2px solid var(--signal); outline-of
         <div class="taglist"><span class="t">Wazuh</span><span class="t">Splunk</span><span class="t">Log Analysis</span><span class="t">MITRE ATT&amp;CK</span><span class="t">Vulnerability Assessment</span></div>
       </div>
       <div class="skill-card">
-        <div class="sk-head"><h3>Cloud Security (AWS)</h3><span class="sk-tag">CLOUD</span></div>
-        <div class="taglist"><span class="t">IAM</span><span class="t">CloudTrail</span><span class="t">GuardDuty</span><span class="t">Security Hub</span></div>
+        <div class="sk-head"><h3>QA, API &amp; Service Operations</h3><span class="sk-tag">QUALITY</span></div>
+        <div class="taglist"><span class="t">Jira</span><span class="t">Postman</span><span class="t">ServiceNow</span><span class="t">Splunk</span><span class="t">MS Excel</span><span class="t">API Validation</span><span class="t">Defect Tracking</span></div>
       </div>
       <div class="skill-card">
         <div class="sk-head"><h3>Digital Forensics</h3><span class="sk-tag">RESPOND</span></div>
@@ -384,7 +390,7 @@ a:focus-visible, .btn:focus-visible{ outline:2px solid var(--signal); outline-of
   <div class="container">
     <div class="sec-eyebrow">projects</div>
     <h2>Lab work</h2>
-    <p class="sec-intro">Self-built environments documented and published on GitHub &mdash; designed to mirror real enterprise security operations.</p>
+    <p class="sec-intro">Continuously developed environments documented on GitHub &mdash; expanded through repeatable testing, new telemetry sources, detection tuning, and incident-analysis workflows.</p>
     <div class="proj-list">
 
       <article class="proj">
@@ -437,53 +443,63 @@ a:focus-visible, .btn:focus-visible{ outline:2px solid var(--signal); outline-of
 <section id="experience">
   <div class="container">
     <div class="sec-eyebrow">experience</div>
-    <h2>Where I&rsquo;ve worked</h2>
+    <h2>Five years across IT operations, security, and quality</h2>
     <div class="exp-list">
 
       <div class="exp-row">
-        <div class="exp-when">JAN 2025 &mdash; PRESENT</div>
+        <div class="exp-when">AUG 2024 &mdash; DEC 2026 <br/>(EXPECTED)</div>
         <div class="exp-main">
-          <h3>Graduate Assistant</h3>
+          <h3>Graduate Research Assistant</h3>
           <span class="org">Arkansas State University &mdash; Jonesboro, AR</span>
           <ul>
-            <li>Configure and maintain 50+ lab and office workstations, ensuring systems are updated, patched, and compliant with university security policies.</li>
-            <li>Manage employee and student onboarding and offboarding, including workstation imaging, software deployment, Active Directory account provisioning, and equipment tracking.</li>
-            <li>Process 100+ Active Directory access requests monthly, managing user accounts and permissions across the university environment.</li>
-            <li>Deliver tier-1 technical support to 100+ faculty and graduate students, troubleshooting hardware, software, and network connectivity issues across Windows, macOS, and Linux.</li>
-            <li>Resolve remote-support requests involving VPN connectivity, application access, and Wi-Fi issues for off-campus users.</li>
-            <li>Administer Google Workspace and Slack for faculty collaboration, resolving access and account-configuration problems.</li>
-            <li>Document troubleshooting steps and resolutions in an internal tracking system, building a knowledge base that reduced repeat tickets by 25%.</li>
-            <li>Support Linux-based data management for academic research and contribute to cybersecurity policy and network-governance initiatives.</li>
+            <li>Configure and maintain 50+ lab and office workstations, keeping systems patched, reliable, and aligned with university security policies.</li>
+            <li>Manage onboarding and offboarding through workstation imaging, software deployment, account provisioning, permission changes, and equipment tracking.</li>
+            <li>Process 100+ access requests monthly and deliver tier-1 support to 100+ faculty members, students, and researchers.</li>
+            <li>Troubleshoot hardware, software, VPN, Wi-Fi, and application-access issues across Windows, macOS, and Linux environments.</li>
+            <li>Administer Google Workspace and Slack access, document repeatable resolutions, and support Linux-based academic research workflows.</li>
+            <li>Contribute to cybersecurity policy, network-governance, and practical security-lab initiatives with a security-first operational mindset.</li>
           </ul>
         </div>
       </div>
 
       <div class="exp-row">
-        <div class="exp-when">JUN 2022 &mdash; APR 2024</div>
+        <div class="exp-when">AUG 2022 &mdash; JUL 2024</div>
         <div class="exp-main">
           <h3>Analyst</h3>
           <span class="org">Teleperformance Global Services Pvt. Ltd. &mdash; Hyderabad, India</span>
           <div class="exp-sub">
             <h4>IT Support &amp; Systems Operations</h4>
             <ul>
-              <li>Provisioned user accounts, configured workstations, and coordinated with HR for asset distribution to support employee onboarding at scale.</li>
-              <li>Managed and resolved 50+ technical incidents weekly through structured triage, escalation, and documentation while maintaining service-level agreements.</li>
-              <li>Performed software updates, patch management, and vulnerability remediation to maintain platform stability and security.</li>
-              <li>Supported AI-driven platforms for 200+ internal stakeholders across multiple regions, troubleshooting application errors, performance issues, and access problems.</li>
-              <li>Monitored security alerts and conducted initial investigation and escalation following SOC-style incident-response procedures.</li>
-              <li>Delivered remote support for connectivity, VPN, and application-access issues; maintained troubleshooting documentation that reduced resolution time by 20%.</li>
-              <li>Coordinated with third-party vendors for hardware procurement and software licensing.</li>
+              <li>Provisioned accounts, configured workstations, coordinated asset distribution, and supported employee onboarding at scale.</li>
+              <li>Managed 50+ technical incidents weekly through structured triage, escalation, documentation, and SLA-focused resolution.</li>
+              <li>Performed software updates, patch management, and vulnerability remediation to improve platform stability and security.</li>
+              <li>Supported AI-driven platforms for 200+ internal stakeholders across multiple regions, resolving application, performance, access, VPN, and connectivity issues.</li>
+              <li>Monitored security alerts, completed initial investigations, and escalated incidents through SOC-style response procedures.</li>
+              <li>Maintained troubleshooting documentation that reduced resolution time by 20% and coordinated with vendors for hardware and software needs.</li>
             </ul>
           </div>
           <div class="exp-sub">
             <h4>Data Operations &amp; Quality Assurance</h4>
             <ul>
-              <li>Validated and maintained 12,000+ data records monthly for business-intelligence and reporting systems.</li>
-              <li>Developed automated SQL data-validation scripts, reducing manual effort by 40% and improving anomaly detection.</li>
-              <li>Built Tableau dashboards for operational monitoring and real-time visibility into system performance.</li>
-              <li>Implemented row-level security policies for data access control and governance compliance.</li>
+              <li>Validated 12,000+ records monthly and developed SQL validation scripts that reduced manual effort by 40%.</li>
+              <li>Built Tableau dashboards for operational monitoring and implemented row-level security for controlled data access.</li>
             </ul>
           </div>
+        </div>
+      </div>
+
+      <div class="exp-row">
+        <div class="exp-when">AUG 2021 &mdash; JUL 2022</div>
+        <div class="exp-main">
+          <h3>QA Tester Intern</h3>
+          <span class="org">Cognizant &mdash; Healthcare Applications</span>
+          <ul>
+            <li>Monitored and verified healthcare application systems across multiple environments, maintaining 99.1% accuracy when identifying system anomalies and data-handling discrepancies.</li>
+            <li>Tracked API performance with Postman across 50+ endpoints weekly to verify secure, uninterrupted transmission of clinical data.</li>
+            <li>Reviewed operational workflows and Splunk error logs to troubleshoot data mismatches and route critical issues to engineering teams within minutes.</li>
+            <li>Managed defects and validation evidence through Jira and ServiceNow, using MS Excel for structured tracking and reporting.</li>
+            <li>Collaborated with cross-functional teams to retest fixes and confirm tickets met compliance and quality standards before closure.</li>
+          </ul>
         </div>
       </div>
 
@@ -519,7 +535,7 @@ a:focus-visible, .btn:focus-visible{ outline:2px solid var(--signal); outline-of
     <div class="contact-shell">
       <div class="status-line">READY FOR DEPLOYMENT</div>
       <h2>Let&rsquo;s talk about your team&rsquo;s next hire</h2>
-      <p>Actively seeking IT Help Desk, IT Administrator, IT Security, SOC Analyst, and Cloud Security roles &mdash; including positions involving travel or relocation.</p>
+      <p>Actively seeking IT Help Desk, IT Administrator, IT Security, SOC Analyst, QA, and network-security roles &mdash; including positions involving travel or relocation.</p>
       <div class="contact-grid">
         <a class="primary" href="mailto:Charanteja.badavath@gmail.com">Charanteja.badavath@gmail.com</a>
         <a href="https://www.linkedin.com/in/charan-teja-badavath-7a258333b/" target="_blank" rel="noopener">LinkedIn</a>
